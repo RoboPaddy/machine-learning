@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
     while True:
         success, img = cap.read()
-        result, objectInfo = getObjects(img,0.45,0.2, objects=['cup'])
+        result, objectInfo = getObjects(img,0.45,0.2, objects=['bird'])
         #print(objectInfo)
         cv2.imshow("Output",img)
         cv2.waitKey(1)
