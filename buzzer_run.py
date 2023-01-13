@@ -16,7 +16,7 @@ def setup(pin):
 
 def on():
     GPIO.output(BuzzerPin, GPIO.LOW)    
-    #低电平是响
+    #ring when low level
 def off():
     GPIO.output(BuzzerPin, GPIO.HIGH)
     GPIO.cleanup()                     # Release resource
@@ -29,8 +29,8 @@ def destroy():
 #setup(Buzzer)
 
 
-    #高电平是停止响
-def beep(x):    #响3秒后停止3秒
+    #stop ringing when high level
+def beep(x):    #Beep for 3 seconds, then stop for 3 seconds
     on()
     time.sleep(x)
     off()
