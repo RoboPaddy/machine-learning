@@ -1,3 +1,8 @@
+# Command to run code
+```
+sh run.sh
+```
+
 # Important Links
 
 Group contract: https://docs.google.com/document/d/15YzlLbiQW5KyVPFqFvJ-0f7YpMENorqoSLOONjDjGco/edit?usp=sharing
